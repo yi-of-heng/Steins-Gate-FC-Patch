@@ -1,0 +1,27 @@
+.DS_Store
+.swift-module-cache/
+
+# Original game dumps and extracted game assets. Do not commit or publish these.
+*.xci
+*.nsp
+*.nca
+romfs/
+romfs.zip
+m2_work/
+output/
+
+# Local/generated application leftovers from this workspace.
+Sleep Reminder.app/
+SleepReminder.applescript
+Sources/
+genshin-homepage-screenshot.png
+
+# Python cache and local envs.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local translation/font experiments not part of the public sentence-case patch.
+tools/nes_cn_patch.py
+
